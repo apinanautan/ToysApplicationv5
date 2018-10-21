@@ -1,10 +1,14 @@
 package com.apinanandwattana.comsci.sdu.toysapplication;
 
+import android.content.Context;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.MediaController;
 import android.widget.VideoView;
+
+import io.github.inflationx.viewpump.ViewPumpContextWrapper;
 
 public class vt1 extends AppCompatActivity {
 
@@ -29,5 +33,14 @@ public class vt1 extends AppCompatActivity {
         myVideoV.start();
 
 
+    }
+
+    public void clickBack(View view) {
+        finish();
+    }
+
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(ViewPumpContextWrapper.wrap(newBase));
     }
 }

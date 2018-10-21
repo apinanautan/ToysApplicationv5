@@ -18,4 +18,8 @@ public class listviewToy extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void clickBack(View view) {
+        finish();
+    }
+
 }

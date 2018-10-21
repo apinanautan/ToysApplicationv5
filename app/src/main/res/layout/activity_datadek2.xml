@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".datadek2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="คำแนะนำในการเลี้ยงดูเด็กออทิสติก ในแต่ละช่วงวัย"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="371dp"
+                android:layout_marginTop="10sp"
+                android:text="ในการเลี้ยงดูเด็กออทิสติก โดยหลักการก็เลี้ยงเหมือนเด็กทั่วไป แต่เน้นการกระตุ้นเพิ่มเติมในจุดที่เป็นปัญหาให้เข้มข้นขึ้น ในขณะเดียวกันก็ต้องส่งเสริมในจุดที่เป็นความสามารถเฉพาะตัวของเด็ก ให้พัฒนาควบคู่กันไปด้วย ในแต่ละช่วงวัยก็มีส่วนสำคัญที่ต้องเน้นแตกต่างกัน ดังนี้
+ในช่วงปฐมวัย 5 ขวบปีแรก ตั้งแต่เริ่มรู้ว่าเป็นออทิสติก ให้นำเข้าโปรแกรมปรับพฤติกรรมแบบเข้มข้น ส่งเสริมพัฒนาการในทุกด้านอย่างต่อเนื่อง ฝึกและแก้ไขการพูด เสริมสร้างทักษะการดูแลตนเอง และทักษะสังคมที่เหมาะสมตามวัย
+เริ่มต้นด้วยการกระตุ้นให้เด็กตอบสนองอย่างสม่ำเสมอ เรียกแล้วหันมอง เน้นการมองหน้าสบตา "
+
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เล่นโต้ตอบกัน โดยการกระตุ้นเด็กให้ออกจากโลกส่วนตัวของตนเอง มารับรู้และสนใจสิ่งแวดล้อมภายนอกเพิ่มขึ้น เพราะถ้าปล่อยให้เด็กเป็นไปตามธรรมชาติของเขา เด็กก็จะอยู่ในโลกส่วนตัวมากขึ้น ไม่สนใจใคร เริ่มมีอาการแย่ลงเรื่อยๆ กระตุ้นตัวเองโดยการโยกตัว หมุนตัว เล่นมือ ส่งเสียงเป็นภาษาของตัวเอง และไม่ยอมเรียนรู้โลกภายนอกในที่สุด
+ควรเตรียมความพร้อมพื้นฐานในการเรียนรู้ โดยการฝึกฝนให้เข้าใจคำสั่งง่ายๆ และทำตามได้ "
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เช่น ขอ ยกมือ กอดอก นั่ง เป็นต้น และฝึกฝนให้มีสมาธิจดจ่ออยู่กับกิจกรรมที่ทำได้นานพอ ไม่ลุกเดินไปมาตลอดเวลา
+ในช่วงวัยเรียน เน้นฝึกฝนทักษะด้านสังคมเพิ่มขึ้น สามารถเข้ากลุ่มกิจกรรมร่วมกับเพื่อนฝูง รู้จักการรอคอย รู้จัก กฎ กติกา ในการเล่นเกม ผลัดกันเล่นผลัดกันทำ ซึ่งเป็นพื้นฐานในการเข้าใจกติกาทางสังคมต่อไป
+ในช่วงวัยรุ่น มีการเปลี่ยนแปลงทั้งทางร่างกายและอารมณ์อย่างมาก เริ่มรับรู้และเข้าใจความแตกต่างของตนเองกับเพื่อนฝูง จำเป็นต้องมีการเตรียมตัวให้ข้อมูล สอนให้เข้าใจถึงการเปลี่ยนแปลง และความแตกต่างระหว่างบุคคลล่วงหน้า เพื่อให้เด็กไม่ตื่นเต้นตกใจจนเกินไป และสามารถปรับตัวได้เหมาะสม
+การดูแลเด็กออทิสติกเป็นเรื่องยาก แต่ก็ไม่ยากจนเกินไป เพราะทุกแรงกายแรงใจที่ทุ่มเทลงไป ออกดอกออกผลให้เห็นเสมอ แม้ว่าจะใช้เวลานาน แต่ก็มีการเปลี่ยนแปลง และพัฒนาให้เห็นชัดเจน
+"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/back2"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:background="@android:color/holo_orange_dark"
+                android:onClick="clickBack"
+                android:text="กลับ" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

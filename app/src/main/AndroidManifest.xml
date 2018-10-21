@@ -3,13 +3,14 @@
     package="com.apinanandwattana.comsci.sdu.toysapplication">
 
     <application
+        android:name=".font"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".logo_Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,6 +20,9 @@
         <activity android:name=".listviewToy" />
         <activity android:name=".vt1" />
         <activity android:name=".AboutMe" />
+        <activity android:name=".datadekActivity" />
+        <activity android:name=".datadek2" />
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>

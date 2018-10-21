@@ -1,10 +1,13 @@
 package com.apinanandwattana.comsci.sdu.toysapplication;
 
+import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import io.github.inflationx.viewpump.ViewPumpContextWrapper;
 
 public class AboutMe extends AppCompatActivity {
 
@@ -29,6 +32,11 @@ public class AboutMe extends AppCompatActivity {
 
     public void clickBack(View view) {
         finish();
+    }
+
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(ViewPumpContextWrapper.wrap(newBase));
     }
 
 }
