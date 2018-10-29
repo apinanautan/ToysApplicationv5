@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.apinanandwattana.comsci.sdu.toysapplication">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".font"
         android:allowBackup="true"
@@ -22,7 +24,21 @@
         <activity android:name=".AboutMe" />
         <activity android:name=".datadekActivity" />
         <activity android:name=".datadek2" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".vt2Activity" />
+        <activity android:name=".vt3" />
+        <activity android:name=".Vt4" />
+        <activity android:name=".vt5" />
+        <activity android:name=".vt6" />
+        <activity android:name=".vt7" />
+        <activity android:name=".vt8" />
+        <activity android:name=".vt9" />
+        <activity android:name=".vt10" />
+        <activity android:name=".vt11" />
+        <activity android:name=".vt12" />
+        <activity android:name=".vt13" />
+        <activity android:name=".vt14" />
+        <activity android:name=".vt15"></activity>
     </application>
 
 </manifest>

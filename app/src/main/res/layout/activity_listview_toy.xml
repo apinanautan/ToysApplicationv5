@@ -52,85 +52,99 @@
                 android:id="@+id/btn02"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:background="@drawable/toy2" />
+                android:background="@drawable/toy2"
+                android:onClick="imv2" />
 
             <Button
                 android:id="@+id/btn03"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:background="@drawable/toy3" />
+                android:background="@drawable/toy3"
+                android:onClick="imv3" />
 
             <Button
                 android:id="@+id/btn04"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:background="@drawable/toy4" />
+                android:background="@drawable/toy4"
+                android:onClick="imv4" />
 
             <Button
                 android:id="@+id/btn05"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:background="@drawable/toy5" />
+                android:background="@drawable/toy5"
+                android:onClick="imv5" />
 
             <Button
                 android:id="@+id/btn06"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:background="@drawable/toy6" />
+                android:background="@drawable/toy6"
+                android:onClick="imv6" />
 
             <Button
                 android:id="@+id/btn07"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:background="@drawable/toy7" />
+                android:background="@drawable/toy7"
+                android:onClick="imv7" />
 
             <Button
                 android:id="@+id/btn08"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:background="@drawable/toy8" />
+                android:background="@drawable/toy8"
+                android:onClick="imv8" />
 
             <Button
                 android:id="@+id/btn09"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:background="@drawable/toy9" />
+                android:background="@drawable/toy9"
+                android:onClick="imv9" />
 
             <Button
                 android:id="@+id/btn10"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:background="@drawable/toy10" />
+                android:background="@drawable/toy10"
+                android:onClick="imv10" />
 
             <Button
                 android:id="@+id/btn11"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:background="@drawable/toy11" />
+                android:background="@drawable/toy11"
+                android:onClick="imv11" />
 
             <Button
                 android:id="@+id/btn12"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:background="@drawable/toy12" />
+                android:background="@drawable/toy12"
+                android:onClick="imv12" />
 
             <Button
                 android:id="@+id/btn13"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:background="@drawable/toy13" />
+                android:background="@drawable/toy13"
+                android:onClick="imv13" />
 
             <Button
                 android:id="@+id/btn14"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:background="@drawable/toy14" />
+                android:background="@drawable/toy14"
+                android:onClick="imv14" />
 
             <Button
                 android:id="@+id/btn15"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:background="@drawable/toy15" />
+                android:background="@drawable/toy15"
+                android:onClick="imv15" />
         </LinearLayout>
     </ScrollView>
 

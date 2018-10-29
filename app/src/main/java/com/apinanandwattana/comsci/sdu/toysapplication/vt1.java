@@ -17,14 +17,6 @@ public class vt1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vt1);
 
-        //VideoView videoView = findViewById(R.id.videoView);
-        //String videoPath = "android.resource;//" + getPackageName() +"/"+ R.raw.cat;
-       // Uri uri = Uri.parse(videoPath);
-       // videoView.setVideoURI(uri);
-
-       // MediaController mediaController = new MediaController(this);
-       // videoView.setMediaController(mediaController);
-       // mediaController.setAnchorView(videoView);
 
         VideoView myVideoV = (VideoView)findViewById(R.id.videoView);
         myVideoV.setVideoURI(Uri.parse("android.resource://" + getPackageName() +"/"+R.raw.cat));

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg2"
+    android:background="@drawable/vt01"
     tools:context=".vt1">
 
     <ScrollView
@@ -14,9 +14,10 @@
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
         android:layout_marginBottom="8dp"
+        android:background="@color/ic_launcher_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,6 +39,7 @@
                 android:layout_marginRight="8dp"
                 android:text="ดินน้ำมันตามตัวอักษร"
                 android:textSize="@dimen/h1"
+                android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.504"
                 app:layout_constraintStart_toStartOf="parent"
@@ -47,9 +49,10 @@
                 android:id="@+id/videoView"
                 android:layout_width="301dp"
                 android:layout_height="152dp"
+                android:layout_gravity="center"
                 android:layout_marginStart="8dp"
                 android:layout_marginLeft="8dp"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -60,6 +63,7 @@
                 android:id="@+id/textView2"
                 android:layout_width="305dp"
                 android:layout_height="278dp"
+                android:layout_gravity="center"
                 android:layout_marginStart="8dp"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
@@ -76,16 +80,16 @@
 
         \nประโยชน์ที่ได้รับ
         \nได้พัฒนาอวัยวะกล้ามเนื้อนิ้วมือและแขนช่วยเสริมสร้างการประสานสัมพันธ์ระหว่างประสาทตาและกล้ามเนื้อมือให้ดียิ่งขึ้น"
-                android:textSize="18sp"
+                android:textSize="24sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView"
-                />
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="80dp"
                 android:layout_height="40dp"
+                android:layout_gravity="center"
                 android:layout_marginStart="8dp"
                 android:layout_marginLeft="8dp"
                 android:layout_marginEnd="8dp"
