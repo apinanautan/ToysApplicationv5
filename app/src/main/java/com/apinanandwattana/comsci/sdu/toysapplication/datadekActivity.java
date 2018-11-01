@@ -20,6 +20,27 @@ public class datadekActivity extends AppCompatActivity {
         Intent intent = new Intent(datadekActivity.this, datadek2.class);
         startActivity(intent);
     }
+    public void databn2(View view) {
+        Intent intent = new Intent(datadekActivity.this, datadek02.class);
+        startActivity(intent);
+    }
+
+    public void databn3(View view) {
+        Intent intent = new Intent(datadekActivity.this, datadek03.class);
+        startActivity(intent);
+    }
+    public void databn4(View view) {
+        Intent intent = new Intent(datadekActivity.this, datadek04.class);
+        startActivity(intent);
+    }
+    public void databn5(View view) {
+        Intent intent = new Intent(datadekActivity.this, datadek05.class);
+        startActivity(intent);
+    }
+    public void databn6(View view) {
+        Intent intent = new Intent(datadekActivity.this, datadek6.class);
+        startActivity(intent);
+    }
 
     @Override
     protected void attachBaseContext(Context newBase) {

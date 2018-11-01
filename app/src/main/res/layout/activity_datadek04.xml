@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".datadek04">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="อุปสรรคที่ผู้ดูแลเด็กออทิสติกต้องเผชิญหน้า และวิธีการแก้ไขปัญหาคืออะไร "
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ผู้ดูแลเด็กออทิสติกมักพบกับอุปสรรคเป็นระยะ แต่ทุกครั้งก็สามารถฟันฝ่าอุปสรรคได้เสมอ และเมื่อผ่านมาได้แต่ละครั้งก็จะได้เห็นพัฒนาการของเด็กที่ก้าวหน้าขึ้น สิ่งเหล่านี้จะเป็นกำลังใจในการดูแลต่อไปได้เป็นอย่างดี "
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="อุปสรรคที่สำคัญในการฝึกฝนเด็กช่วงแรกคือ เด็กต่อต้าน ไม่ร่วมมือ ไม่เห็นการเปลี่ยนแปลงอย่างรวดเร็ว ทำให้ท้อแท้หมดกำลังใจ ซึ่งพ่อแม่หลายท่านก็ผ่านช่วงนี้มาแล้ว และอีกหลายๆท่านกำลังจะผ่านไปได้ ขอเป็นกำลังใจให้ครับ
+"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="อย่าตั้งความหวังสูงเกินไปในช่วงแรก ค่อยๆก้าวไปที่ละขั้น เพราะว่าพัฒนาการเป็นเสมือนขั้นบันได ที่ไม่มีทางลัด ไม่มีลิฟท์ ให้ขึ้นไปได้อย่างรวดเร็ว ถ้าคาดหวังว่าเด็กจะต้องพูดได้ภายใน 1 เดือน ก็คงทำให้หมดกำลังใจง่าย แต่ถ้าคาดหวังว่าเด็กจะพอเข้าใจคำสั่งง่ายๆ และทำตามได้บ้าง ก็จะมีกำลังใจสู้ต่อไป พอเด็กทำได้แล้วค่อยคาดหวังเพิ่มขึ้นในเรื่องอื่นๆ ต่อไป "
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="อุปสรรคที่สำคัญอีกอย่างคือ ความอ่อนล้าจากการฝึกฝน เป็นธรรมดาที่จะรู้สึกอ่อนล้า เบื่อหน่าย และท้อแท้บ้างเป็นบางครั้งหลังจากได้ทุ่มเทฝึกฝนอย่างต่อเนื่อง อ่อนล้าก็พัก เติมกำลังใจให้ตัวเอง แล้วกลับมาตั้งต้นใหม่เมื่อพร้อม อย่าไปรู้สึกผิดที่บางช่วงทุ่มเทไม่เต็มที่ เพราะแม้แต่เครื่องยนต์ยังไม่สามารถเดินเครื่องตลอดเวลาโดยไม่ได้หยุดพัก บางช่วงเวลาเด็กอาจมีพัฒนาการที่ถดถอยไปบ้าง แต่เมื่อกระตุ้นแล้วก็จะกลับมาเหมือนเดิมได้อย่างรวดเร็ว เพราะสิ่งใดที่เคยทำได้แล้วย่อมไม่มีหายไปไหน "
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="อ้างอิง  http://www.happyhomeclinic.com/au08-rearing.htm "
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/back2"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/holo_orange_dark"
+            android:onClick="clickBack"
+            android:text="กลับ" />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

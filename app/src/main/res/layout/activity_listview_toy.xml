@@ -4,7 +4,332 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg111212"
     tools:context=".listviewToy">
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="350dp"
+        android:layout_height="414dp"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/ic_launcher_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="202dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:onClick="imv1"
+                app:srcCompat="@drawable/toypic1" />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="ดินน้ำมันตามตัวอักษร"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="199dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:onClick="imv2"
+                app:srcCompat="@drawable/toypic10" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="จิกซอว์ผลไม้"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="199dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:onClick="imv3"
+                app:srcCompat="@drawable/toypic12" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:text="ปิงปองซ่อนหา"
+                android:textSize="18sp" />
+
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="199dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:onClick="imv4"
+                app:srcCompat="@drawable/toypic5" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="ดินน้ำมันหรรษา"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="199dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:onClick="imv5"
+                app:srcCompat="@drawable/toypic7" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="ลูกบอลเเยกสี"
+                android:layout_gravity="center_horizontal"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="199dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:onClick="imv6"
+                app:srcCompat="@drawable/toypic9" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="หลอดเขาวงกต"
+                android:layout_gravity="center_horizontal"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="199dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:onClick="imv7"
+                app:srcCompat="@drawable/toypic15" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="ดินน้ำมันเรขาคณิต"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="199dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:onClick="imv8"
+                app:srcCompat="@drawable/toypic8" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="ป่าหรรษา"
+                android:layout_gravity="center_horizontal"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="199dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:onClick="imv9"
+                app:srcCompat="@drawable/toypic13" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="ดินน้ำมันตามจำนวนเลข"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="199dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:onClick="imv10"
+                app:srcCompat="@drawable/toypic11" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="จับคู่ภาษาอังกฤษหรรษา"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="199dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:onClick="imv11"
+                app:srcCompat="@drawable/toypic14" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="ตกปลาาาจากไม้ตะเกียบ"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="199dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:onClick="imv12"
+                app:srcCompat="@drawable/toypic6" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="รถไฟหรรษา"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="199dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:onClick="imv13"
+                app:srcCompat="@drawable/toypic2" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="จิ๊กซอว์จากรูปวาด"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="199dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:onClick="imv14"
+                app:srcCompat="@drawable/toypic3" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="กระดานดินน้ำมัน"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="199dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:onClick="imv15"
+                app:srcCompat="@drawable/toypic4" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="30dp"
+                android:text="ไม้ติมตามหาสี"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="384dp" />
 
     <Button
         android:id="@+id/button3"
@@ -12,7 +337,6 @@
         android:layout_height="40dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="352dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
@@ -21,152 +345,18 @@
         android:text="กลับ"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/searchView2"
-        app:layout_constraintVertical_bias="0.932" />
-
-    <ScrollView
-        android:id="@+id/scrollView4"
-        android:layout_width="match_parent"
-        android:layout_height="445dp"
-        android:layout_marginTop="56dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="0dp">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <Button
-                android:id="@+id/btn01"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:background="@drawable/toy1"
-                android:onClick="imv1" />
-
-            <Button
-                android:id="@+id/btn02"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:background="@drawable/toy2"
-                android:onClick="imv2" />
-
-            <Button
-                android:id="@+id/btn03"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:background="@drawable/toy3"
-                android:onClick="imv3" />
-
-            <Button
-                android:id="@+id/btn04"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:background="@drawable/toy4"
-                android:onClick="imv4" />
-
-            <Button
-                android:id="@+id/btn05"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:background="@drawable/toy5"
-                android:onClick="imv5" />
-
-            <Button
-                android:id="@+id/btn06"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:background="@drawable/toy6"
-                android:onClick="imv6" />
-
-            <Button
-                android:id="@+id/btn07"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:background="@drawable/toy7"
-                android:onClick="imv7" />
-
-            <Button
-                android:id="@+id/btn08"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:background="@drawable/toy8"
-                android:onClick="imv8" />
-
-            <Button
-                android:id="@+id/btn09"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:background="@drawable/toy9"
-                android:onClick="imv9" />
-
-            <Button
-                android:id="@+id/btn10"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:background="@drawable/toy10"
-                android:onClick="imv10" />
-
-            <Button
-                android:id="@+id/btn11"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:background="@drawable/toy11"
-                android:onClick="imv11" />
-
-            <Button
-                android:id="@+id/btn12"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:background="@drawable/toy12"
-                android:onClick="imv12" />
-
-            <Button
-                android:id="@+id/btn13"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:background="@drawable/toy13"
-                android:onClick="imv13" />
-
-            <Button
-                android:id="@+id/btn14"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:background="@drawable/toy14"
-                android:onClick="imv14" />
-
-            <Button
-                android:id="@+id/btn15"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:background="@drawable/toy15"
-                android:onClick="imv15" />
-        </LinearLayout>
-    </ScrollView>
-
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <SearchView
-        android:id="@+id/searchView2"
-        android:layout_width="match_parent"
-        android:layout_height="41dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="0dp">
-
-    </SearchView>
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.972"
+        app:layout_constraintStart_toStartOf="@+id/toolbar"
+        tools:layout_editor_absoluteY="7dp" />
 
 </android.support.constraint.ConstraintLayout>

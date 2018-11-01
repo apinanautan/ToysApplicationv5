@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".datadek03">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="การให้เวลากับเด็กออทิสติก และการสอนให้เขารู้จักการช่วยเหลือตัวเองได้ มีวิธีการปฏิบัติอย่างไร"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="ยิ่งมีเวลาในการสอน ในการเล่น และพูดคุยกับเด็กมากเท่าไหร่ ก็ยิ่งสามารถช่วยเหลือให้เด็กออทิสติก มีพัฒนาการที่ดีขึ้นได้เร็ว"
+
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="การสอนให้เด็กรู้จักช่วยเหลือตัวเองในชีวิตประจำวัน เป็นสิ่งสำคัญมาก เริ่มตั้งแต่การฝึกให้เด็กดื่มน้ำจากแก้ว ทานข้าวเองโดยการหยิบจับช้อน พยายามอย่าป้อน จะเลอะเทอะบ้างไม่เป็นไรอย่าไปดุว่า เพราะสิ่งเหล่านี้จะสร้างความมั่นใจให้เด็กรู้สึกว่าทำได้ และอยากทำต่อไป ค่อยๆพัฒนาไปเอง ฝึกการขับถ่ายให้เป็นเวลา พาเข้า"
+                android:textSize="24sp" />
+
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ห้องน้ำเมื่อสังเกตเห็นเด็กทำท่าทางปวด ฝึกให้เด็กเก็บของเล่นเข้าที่เมื่อเล่นเสร็จแล้ว ช่วงแรกช่วยกันทำ จับมือทำ แต่ยืนยันว่าต้องทำ เมื่อเด็กทำได้ ให้ชมเชย ตบมือ กอด ให้รางวัลเป็นขนมที่เด็กชอบ เพื่อให้เด็กรู้สึกอยากทำในครั้งต่อๆไป"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ถ้ามีเวลาในการฝึกฝนอย่างเต็มที่ เด็กย่อมดีขึ้นได้เร็ว มีพัฒนาการที่สมวัยมากขึ้น สามารถใช้ชีวิตในสังคมได้ปกติ"
+                android:textSize="24sp" />
+
+            
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="อ้างอิง  http://www.happyhomeclinic.com/au08-rearing.htm "
+                android:textSize="8sp" />
+
+            <Button
+                android:id="@+id/back2"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@android:color/holo_orange_dark"
+                android:onClick="clickBack"
+                android:text="กลับ" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

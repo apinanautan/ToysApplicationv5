@@ -38,7 +38,12 @@
         <activity android:name=".vt12" />
         <activity android:name=".vt13" />
         <activity android:name=".vt14" />
-        <activity android:name=".vt15"></activity>
+        <activity android:name=".vt15" />
+        <activity android:name=".datadek03" />
+        <activity android:name=".datadek02" />
+        <activity android:name=".datadek04" />
+        <activity android:name=".datadek05" />
+        <activity android:name=".datadek6"></activity>
     </application>
 
 </manifest>

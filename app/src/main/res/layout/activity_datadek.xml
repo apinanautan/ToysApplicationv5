@@ -36,7 +36,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/imv2" />
 
             <Button
-                android:id="@+id/btn5"
+                android:id="@+id/databn2"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_margin="10dp"
@@ -44,6 +44,7 @@
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
                 android:background="@drawable/iconbutton"
+                android:onClick="databn2"
                 android:text="การเสริมสร้างพัฒนาการด้านการเรียนรู้"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toTopOf="@+id/btn2"
@@ -52,7 +53,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/imv2" />
 
             <Button
-                android:id="@+id/btn6"
+                android:id="@+id/databn3"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_margin="10dp"
@@ -60,6 +61,7 @@
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
                 android:background="@drawable/iconbutton"
+                android:onClick="databn3"
                 android:text="การให้เวลาเด็กออทิสติกและการสอนให้เขารู้จักการช่วยเหลือตัวเอง "
                 android:textSize="16sp"
                 app:layout_constraintBottom_toTopOf="@+id/btn2"
@@ -68,7 +70,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/imv2" />
 
             <Button
-                android:id="@+id/btn7"
+                android:id="@+id/databn4"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_margin="10dp"
@@ -76,6 +78,7 @@
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
                 android:background="@drawable/iconbutton"
+                android:onClick="databn4"
                 android:text="อุปสรรคที่ผู้ดูแลเด็กออทิสติกต้องเผชิญหน้า"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toTopOf="@+id/btn2"
@@ -84,7 +87,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/imv2" />
 
             <Button
-                android:id="@+id/btn"
+                android:id="@+id/databn5"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_margin="10dp"
@@ -92,7 +95,25 @@
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
                 android:background="@drawable/iconbutton"
+                android:onClick="databn5"
                 android:text="การเสริมสร้างพัฒนาการด้านการเคลื่อนไหว"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/btn2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imv2" />
+
+            <Button
+                android:id="@+id/databn6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/iconbutton"
+                android:onClick="databn6"
+                android:text="ชักจูงอย่างไรให้หนูน้อยออทิสติกเข้าร่วมสังคมได้"
                 android:textSize="14sp"
                 app:layout_constraintBottom_toTopOf="@+id/btn2"
                 app:layout_constraintEnd_toEndOf="parent"

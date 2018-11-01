@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".datadek02">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="การเสริมสร้างพัฒนาการด้านการเรียนรู้ ต้องทำอย่างไร"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="พื้นฐานสำคัญของการเรียนรู้ คือ การเข้าใจคำสั่งง่ายๆ สามารถทำตามได้ และการมีสมาธิจดจ่อได้พอประมาณ
+ถ้าเด็กไม่เข้าใจคำสั่งง่ายๆ ไม่สามารถทำตามได้ สอนอะไรไปเด็กก็ไม่ตอบสนอง ไม่เรียนรู้เต็มที่ ดังนั้นควรปรับพื้นฐานเหล่านี้ให้คงที่ก่อน โดยการปรับพฤติกรรมแบบเข้มข้น
+"
+                android:textSize="24sp" />
+
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ถ้าเด็กไม่มีสมาธิ การเรียนรู้ก็เป็นไปด้วยความยากลำบาก เนื่องจากเด็กไม่สามารถคัดกรองข้อมูลที่สอน เข้าไปเก็บในหน่วยความจำของสมองได้ ดังนั้นการฝึกฝนเด็กให้มีสมาธิจดจ่อกับกิจกรรมที่ทำได้นาน ตามความเหมาะสมในแต่ละช่วงอายุ จะช่วยส่งเสริมการเรียนรู้ได้เป็นอย่างดี"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="อ้างอิง  http://www.happyhomeclinic.com/au08-rearing.htm "
+                android:textSize="8sp" />
+
+            <Button
+                android:id="@+id/back2"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@android:color/holo_orange_dark"
+                android:onClick="clickBack"
+                android:text="กลับ" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

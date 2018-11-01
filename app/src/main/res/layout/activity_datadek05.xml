@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".datadek05">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="การเสริมสร้างพัฒนาการด้านการเคลื่อนไหว ต้องทำอย่างไร"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="เเด็กออทิสติกบางคน พบว่ามีปัญหาพัฒนาการช้าทุกด้านร่วมด้วย ดังนั้นควรมีการส่งเสริมพัฒนาการทุกด้านควบคู่กันด้านกล้ามเนื้อมัดใหญ่ มักไม่ค่อยมีปัญหา เดิน วิ่ง คล่องแคล่ว ส่วนด้านกล้ามเนื้อมัดเล็ก มักพบปัญหาได้บ่อยพอสมควร เด็กอาจมีลักษณะงุ่มงาม การหยิบจับไม่ถนัด การประสานงานการเคลื่อนไหวของ
+"
+                android:textSize="24sp" />
+
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กล้ามเนื้อไม่ค่อยดี การเสริมสร้างพัฒนาการด้านกล้ามเนื้อ เน้นตามปัญหาเป็นหลัก เช่น ฝึกการเพิ่มแรงของกล้ามเนื้อ โดยการ ปั้น บีบ ดึง ตัด ยกของ เป็นต้น ฝึกการใช้นิ้วมือหยิบจับ โดยการร้อยลูกปัด เอาลูกกลมเสียบหลัก ระบายสีให้อยู่ในกรอบ และที่สำคัญคือ การรับประทานอาหาร หยิบจับช้อนเอง ซึ่งเป็นการฝึกที่ได้ผลดี เนื่องจากต้องทำสม่ำเสมอทุกวัน"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="อ้างอิง  http://www.happyhomeclinic.com/au08-rearing.htm "
+                android:textSize="8sp" />
+
+            <Button
+                android:id="@+id/back2"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@android:color/holo_orange_dark"
+                android:onClick="clickBack"
+                android:text="กลับ" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
