@@ -39,4 +39,17 @@ public class AboutMe extends AppCompatActivity {
         super.attachBaseContext(ViewPumpContextWrapper.wrap(newBase));
     }
 
+    public void clickMap(View view) {
+        String lat = "13.776171";
+        String lng = "100.510746";
+        String label = "มหาวิทยาลัยสวนดุสิต";
+
+        Uri location = Uri.parse("http://maps.google.com/maps?z=10&q=loc:"+lat+","+lng+"("+label+")");
+        Intent mapIntent = new Intent(Intent.ACTION_VIEW,location);
+        startActivity(mapIntent);
+
+
+
+    }
+
 }

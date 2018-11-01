@@ -62,7 +62,7 @@
                 android:layout_marginTop="8dp"
                 android:background="@drawable/iconbutton"
                 android:onClick="databn3"
-                android:text="การให้เวลาเด็กออทิสติกและการสอนให้เขารู้จักการช่วยเหลือตัวเอง "
+                android:text="กาสอนให้หนูน้อยรู้จักช่วยเหลือตัวเองกันเถอะ "
                 android:textSize="16sp"
                 app:layout_constraintBottom_toTopOf="@+id/btn2"
                 app:layout_constraintEnd_toEndOf="parent"

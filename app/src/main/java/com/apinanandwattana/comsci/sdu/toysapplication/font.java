@@ -14,7 +14,7 @@ public class font extends Application {
         ViewPump.init(ViewPump.builder()
          .addInterceptor(new CalligraphyInterceptor(
                  new CalligraphyConfig.Builder()
-                         .setDefaultFontPath("font/Lamoon.ttf")
+                         .setDefaultFontPath("font/SanamDeklen_chaya.ttf")
                          .setFontAttrId(R.attr.fontPath)
                          .build()))
                 .build());

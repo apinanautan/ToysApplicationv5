@@ -2,6 +2,7 @@ package com.apinanandwattana.comsci.sdu.toysapplication;
 
 import android.content.Context;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     Button btn2,btn3;
+    MediaPlayer mediaPlayer;
 
     @Override
 
@@ -26,30 +28,61 @@ public class MainActivity extends AppCompatActivity {
 
         btn2 = findViewById(R.id.btn2);
         btn3 = findViewById(R.id.btn3);
-        //imb8 = findViewById(R.id.imb8);
-        //imb9 = findViewById(R.id.imb9);
+
 
 
 
     }//end
+
+
+
+
     public void clickgoAboutme (View view) {
         Intent historyIntent = new Intent(MainActivity.this,AboutMe.class);
         startActivity(historyIntent);
-    }//end
+        if (mediaPlayer != null) {
+            mediaPlayer.stop();
+            mediaPlayer.release();
+        }
+
+        mediaPlayer = MediaPlayer.create(getApplicationContext(),R.raw.cilck);
+        mediaPlayer.start();
+
+    }
+
     public  void clicklistToy (View view) {
         Intent MeatIntent = new Intent(MainActivity.this, listviewToy.class);
         startActivity(MeatIntent);
+        if (mediaPlayer != null) {
+            mediaPlayer.stop();
+            mediaPlayer.release();
+        }
+
+        mediaPlayer = MediaPlayer.create(getApplicationContext(),R.raw.cilck);
+        mediaPlayer.start();
+
     }
 
     public  void clickdatadekActivity (View view) {
         Intent MeatIntent = new Intent(MainActivity.this, datadekActivity.class);
         startActivity(MeatIntent);
+        if (mediaPlayer != null) {
+            mediaPlayer.stop();
+            mediaPlayer.release();
+        }
+
+        mediaPlayer = MediaPlayer.create(getApplicationContext(),R.raw.cilck);
+        mediaPlayer.start();
+
     }
+
 
     @Override
     protected void attachBaseContext(Context newBase) {
         super.attachBaseContext(ViewPumpContextWrapper.wrap(newBase));
     }
+
+
 
 
 
